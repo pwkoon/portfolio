@@ -1,11 +1,4 @@
-// Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=East+Sea+Dokdo&family=Merriweather+Sans&family=Phudu&family=Public+Sans&family=Satisfy&family=Sigmar+One&family=Space+Mono&display=swap');
-// Define fonts for body and headers
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');// This is where you override default Bootstrap variables
-
-$body-font: "Sigmar One", "cursive";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
 
 :root {
   --color-body: #b6cbce;
@@ -206,13 +199,3 @@ img {
   border-radius: 100px;
   font-size: 24px;
 }
-
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
